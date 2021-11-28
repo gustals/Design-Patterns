@@ -1,6 +1,6 @@
 # Factory Method
 
-O Factory Method é um padrão criacional de projeto que fornece uma interface ou classe abstratab para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. Em outras palavras, as subclasses são responsáveis por criar a instância da classe.
+O Factory Method é um padrão criacional de projeto que fornece uma interface ou classe abstrata para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. Em outras palavras, as subclasses são responsáveis por criar a instância da classe.
 
 Neste exemplo de implementação vamos abordar o código como se este pertencesse a uma aplicação de gerenciamento de logística. O problema que o código resolve é o seguinte: imagine que a primeira versão da aplicação lidava apenas com entregas por terra e com cargas pequenas, porém, neste momento é necessário expandir as entregas para via maritma e entregar cargas pesadas, então, também vai ser necessario checar o peso da entrega e encaixar na categoria pesada ou leve.
 
